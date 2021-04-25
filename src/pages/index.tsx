@@ -1,7 +1,8 @@
+import { Layout } from '../components/Layout'
+
 export default function Main() {
   return (
-    <div>
-      Hello world
-    </div>
+    <Layout>
+    </Layout>
   )
 }
