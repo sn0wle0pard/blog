@@ -9,14 +9,20 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'posts',
-        path: path.resolve(srcDirectory, 'posts')
+        path: path.resolve(srcDirectory, 'posts'),
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'talks',
-        path: path.resolve(srcDirectory, 'talks')
+        path: path.resolve(srcDirectory, 'talks'),
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-mdx',
+      options: {
+        extensions: ['.md', '.mdx'],
       },
     },
   ],

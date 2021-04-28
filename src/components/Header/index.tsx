@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { Layout, Logo } from './styled'
 
 export default function Header() {
