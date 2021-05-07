@@ -6,6 +6,7 @@ export const Article = styled.article`
 `
 
 export const Frame = styled.iframe`
+  flex: none;
   overflow: hidden;
   border-radius: 12px;
 `

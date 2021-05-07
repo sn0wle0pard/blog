@@ -13,7 +13,7 @@ export function Talk({ title, date, youtubeId, conference }: Props) {
   return (
     <Article>
       <Frame
-        width="425"
+        width="400"
         height="225"
         src={`https://www.youtube.com/embed/${youtubeId}?controls=0&modestbranding=1&rel=0`}
         title="YouTube video player"
