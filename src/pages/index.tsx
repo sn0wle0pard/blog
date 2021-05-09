@@ -52,6 +52,7 @@ interface Props {
 export default function Main({ data: { allMdx } }: Props) {
   return (
     <Layout>
+      <div></div>
       <section>
         {allMdx.edges.map(({ node }) => {
           if (node.fields.category === 'posts') {
